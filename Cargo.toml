@@ -1,0 +1,13 @@
+[package]
+name = "repair-order-reconciliation-engine"
+version = "0.1.0"
+edition = "2021"
+description = "Deterministic repair order parts reconciliation and supervised human-in-the-loop delegation engine"
+license = "MIT"
+
+[dependencies]
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+chrono = { version = "0.4", features = ["serde"] }
+
+[dev-dependencies]
